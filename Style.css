@@ -1,0 +1,92 @@
+
+
+* {
+    font-family: 'Arial Narrow';
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+    /*height: 100vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.font_1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+    text-align-last: center;
+}
+.font_2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(76, 72, 72);
+    /*text-align-last: center;*/
+}
+
+.flex_1 {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    
+    /*background-color: rgb(154, 219, 231);
+    border-radius: 10px;*/
+
+    /*border: 2px solid grey;*/
+    gap: 10px;
+}
+.flex_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    gap: 24px;
+    
+    /*background-color: rgb(154, 219, 231);
+    border-radius: 10px;*/
+
+    /*border: 2px solid grey;*/
+    gap: 10px;
+}
+
+
+.item {
+
+    /*height: 150px;*/
+    width: 500px;
+    background-color: rgb(0, 65, 129);
+    border-style: outset;
+}
+
+
+
+.formLogin {
+    width: 650px;
+    border: 2px solid aqua;
+    /*background-color: aqua;*/
+    border-radius: 5px;
+}
+.lable_1 {
+    width: 165px;
+    background-color: rgb(120, 241, 181);
+    gap: 10px;
+    border-radius: 5px;
+}
+.inpup_1 {
+    width: 80px;
+    background-color: rgb(120, 241, 181);
+    gap: 10px;
+    border-radius: 5px;
+}
+.error-mess {
+    background-color: rgb(241, 148, 120);
+    border-radius: 5px;
+}

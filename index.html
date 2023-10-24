@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>DZ1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "container">
+        <div class="font_1">
+            <div class="flex_1">
+                <div class="item"> DZ3 </div>
+                <div class="item"> Temperatura shitalka </div>
+                <span> "Celsius, C" <===> "Fahrenheit, F" </span>
+            </div>
+        </div>        
+    </header>
+    <main>
+        <div class="container" >
+            <div class="font_2">
+                <form class="formLogin" action="/index.html">
+                    <div >
+                        <div class="flex_2">
+                            <label  class = "lable_1">Температура</label>
+                            <input  id="Temp_input" class="inpup_1" type="text" />
+                            <span class = "error-mess"></span>
+                        </div>
+                        <div class="flex_2">
+                        
+                            <label  class = "lable_1">Еденица измерения</label>
+                            <select class="inpup_1" type="Temp_select"  id="Temp_select">
+                                <option value="">-Choose-</option>
+                                <option value="Celsius">Celsius</option>
+                                <option value="Fahrenheit">Fahrenheit</option>
+                            </select>
+                            <span class = "error-mess"></span>
+                        </div>
+                        <div>
+                            <span id = "result" ></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src = "script.js"></script>
+
+</body>
+</html>
